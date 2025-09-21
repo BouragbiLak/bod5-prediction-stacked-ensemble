@@ -10,12 +10,12 @@ The model uses a **stacked ensemble** of LightGBM, XGBoost, and CatBoost with pe
 
 This work enables **real-time BOD₅ estimation**, transforming it from a delayed compliance check into a dynamic control variable for smarter wastewater management.
 
-## 🔍 Key Features
+## Key Features
 
-- 🧠 **Stacked Ensemble**: Combines LightGBM, XGBoost, and CatBoost via weighted averaging.
-- ⏳ **Time-Based Validation**: Chronological train/test split (80/20) ensures realistic forecasting performance.
-- 🛠️ **Domain-Informed Feature Engineering**: 9 new features (e.g., COD removal efficiency, pH change, COD/BOD₅ ratio) improve interpretability and accuracy.
-- 📊 **Robust Preprocessing**: Missing value handling, outlier removal (IQR) for BOD5_out, and temporal sorting.
-- 🌐 **Deployable Soft Sensor**: Can be integrated into SCADA systems or used standalone.
+- **Stacked Ensemble**: Combines LightGBM, XGBoost, and CatBoost via weighted averaging.
+- **Time-Based Validation**: Chronological train/test split (80/20) ensures realistic forecasting performance.
+- **Domain-Informed Feature Engineering**: 9 new features (e.g., COD removal efficiency, pH change, COD/BOD₅ ratio) improve interpretability and accuracy.
+- **Robust Preprocessing**: Missing value handling, outlier removal (IQR) for BOD5_out, and temporal sorting.
+- **Deployable Soft Sensor**: Can be integrated into SCADA systems or used standalone.
 
-## 📂 Repository Structure
+## Repository Structure
