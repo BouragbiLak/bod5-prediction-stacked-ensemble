@@ -22,10 +22,10 @@ All variables were measured at both influent (inlet) and effluent (outlet):
 
 Additionally, 9 engineered features were created using domain knowledge:
 - COD removal efficiency
-- pH change (out – in)
-- COD/BOD₅ ratio (in & out)
-- Interaction terms (e.g., BOD5_in × pH_in)
-- Ratios (e.g., TSS/BOD5_in)
+- pH change (out – int)
+- COD/BOD₅ ratio (int & out)
+- Interaction terms (e.g., BOD5_int × pH_int)
+- Ratios (e.g., TSS/BOD5_int)
 
 ## Data Availability
 Due to institutional policies and data ownership by the WWTP, the **raw dataset cannot be shared publicly**.
