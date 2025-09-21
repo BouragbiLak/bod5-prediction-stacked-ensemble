@@ -36,5 +36,4 @@ However:
 - All code is designed to work on similar datasets from other WWTPs.
 - [`data/sample_data.csv`](data/sample_data.csv): A synthetic but realistic dataset for demonstration and testing.
   
-For research collaboration or data access requests, please contact:  
-📧 bouragbilakhdar@gmail.com
+For research collaboration or data access requests, please contact:  bouragbilakhdar@gmail.com
