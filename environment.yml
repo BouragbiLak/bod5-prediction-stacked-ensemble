@@ -1,0 +1,26 @@
+name: bod5-env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - jupyter
+  - pandas
+  - numpy
+  - scikit-learn
+  - matplotlib
+  - seaborn
+  - lightgbm
+  - xgboost
+  - catboost
+  - pip  # Ensures pip is available inside the Conda environment
+  - pip:
+    - fpp3  # For time series forecasting (from otexts.com/fpp3)
+    - pycaret  # Optional: for automated ML workflows
+    - openpyxl  # To read Excel files if needed
+
+# How to use:
+# 1. Save this as `environment.yml`
+# 2. Run: conda env create -f environment.yml
+# 3. Activate with: conda activate bod5-env
