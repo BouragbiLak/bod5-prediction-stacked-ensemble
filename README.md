@@ -16,6 +16,6 @@ This work enables **real-time BOD₅ estimation**, transforming it from a delaye
 - **Time-Based Validation**: Chronological train/test split (80/20) ensures realistic forecasting performance.
 - **Domain-Informed Feature Engineering**: 9 new features (e.g., COD removal efficiency, pH change, COD/BOD₅ ratio) improve interpretability and accuracy.
 - **Robust Preprocessing**: Missing value handling, outlier removal (IQR) for BOD5_out, and temporal sorting.
-- **Deployable Soft Sensor**: Can be integrated into SCADA systems or used standalone.
+- **Deployable Soft Sensor**: Can be integrated into SCADA (Supervisory Control and Data Acquisition) systems or used standalone.
 
 
